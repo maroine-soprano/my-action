@@ -1,0 +1,13 @@
+name: 'Maroine Action'
+description: 'Say Hi'
+inputs:
+  fullname:  # id of input
+    description: 'Who to greet'
+    required: true
+    default: 'Maroine'
+outputs:
+  hello-description: # id of output
+    description: 'Hello message'
+runs:
+  using: 'node20'
+  main: 'index.js'
